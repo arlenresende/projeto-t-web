@@ -9,6 +9,11 @@ import {
 import Link from 'next/link'
 import postGetOnly from '../action'
 import { Form } from './form'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Visualizar Posts',
+}
 
 export default async function ViewPost({
   params,

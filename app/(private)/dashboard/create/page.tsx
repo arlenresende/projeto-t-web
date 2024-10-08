@@ -9,6 +9,11 @@ import {
 import Link from 'next/link'
 
 import { Form } from './form'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Create Posts',
+}
 
 export default async function CreateProduct() {
   return (
